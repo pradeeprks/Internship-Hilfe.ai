@@ -1,0 +1,28 @@
+*{
+    background-color:antiquewhite
+}
+.heading-1{
+    text-align: justify;
+    background-color:cornsilk;
+    color: coral;
+    text-indent: 18px;
+    line-height: 30px;
+    word-spacing: 8px;
+}
+h1{
+    opacity:0.3 ;
+    color: red;
+}
+img{
+    filter: blur(2px);
+}
+.heading-2{
+    display: flex;
+    color:crimson;
+    padding: 39px;
+}
+.heading-3{
+     border: 2px solid black;
+     background-color: aquamarine;
+     font-size: 40px;
+}

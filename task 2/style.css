@@ -1,0 +1,22 @@
+*{
+    background-color: beige;
+}
+.heading-1{
+    color:blue ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+p::first-letter,::first-line
+{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    text-align: justify;
+}
+a:hover{
+    color: chartreuse;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a:visited{
+    color: black;
+}                                                                                                                                                                                                                                                      

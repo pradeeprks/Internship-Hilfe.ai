@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+<script>
+//length 1method
+let text = "hi iam pradeep working in hilife.ai";
+console.log(text.length);
+//slice 2method
+let str = "Apple, Banana, Kiwi";
+console.log(str.slice(7,13)); 
+//repalce 3method
+let text1 = "welcome to javaScript";
+console.log(text1.replace("javaScript", "hilife.ai!"));
+//concat
+let text6 = "Hello";
+let text7 = "World";
+console.log(text6.concat(" ", text7));
+//upperCase method
+let text4 = "Hii pradeep";
+console.log(text4.toUpperCase());
+//lowercase method
+let text5 = "Hii pradeep";
+console.log(text5.toLowerCase());
+//trim method
+let trim1 = "      king pradeep      ";
+console.log(trim1.trim());
+//padd start method
+let numb = 5;
+let padstart1=numb.toString();
+console.log(padstart1.padStart(6,"0"));
+//padd end method
+let text8 = "5";
+console.log(text8.padEnd(6,"x"));
+//charAt
+let char1 = "HELLO WORLD";
+console.log(char1.charAt(4));
+//charcodeAt
+let char2 = "a";
+console.log(char2.charCodeAt(0));
+
+
+
+//number methods
+var number = "1000";
+console.log(number);
+var number = 572005.9999;
+//coverts the number to String
+console.log(number.toString());
+// number to fixed
+console.log(number.toFixed(2));
+//Exponential method
+console.log(number.toExponential(6));
+// number value of method
+console.log(number.valueOf(3));
+//number toPrecision method
+var no=5122212.5415545;
+console.log(no.toPrecision(10));
+//date method
+let x = new Date("2022-07-16");
+console.log(x);
+//months
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+const d = new Date();
+console.log(months[d.getMonth()]);
+
+</script>
+</body>
+</html>

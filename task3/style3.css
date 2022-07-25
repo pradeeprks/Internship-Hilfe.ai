@@ -1,0 +1,19 @@
+.heading-1
+{
+    background-color:aquamarine;
+    display: inline;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.demo{
+    display:flex;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;
+background-color: blueviolet;
+}
+*{
+    background-color: bisque;
+}
+h1{
+    color: darkred;
+}

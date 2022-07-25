@@ -1,0 +1,16 @@
+.heading-1{
+    background-image: url('./image/naturenew.jpg');
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+    background-position: 70px;
+    background-size: 100px 80px;
+}
+p{
+    color:black
+}
+.heading-2{
+    background-image: url('./image/naturenew1.jpg');
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}

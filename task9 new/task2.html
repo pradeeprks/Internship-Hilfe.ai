@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+      
+    <script>
+        //array
+        //     0         1      2      3        4        5
+       var a=['pradeep','babu','bala','sanjay','edison','buvanesh'];
+       console.log(a);
+       console.log(a[1]);
+       console.log(a[2]);
+       console.log(a[3]);
+       
+
+        //array methods
+       //join methods
+       const fruits = ["Banana", "Orange", "Apple", "Mango"];
+       console.log(fruits.join("."));
+       //pop method can remove last element in array
+       const fruits1 = ["Banana", "Orange", "Apple", "Mango"];
+        console.log(fruits1.pop());
+        //pushing the element to array
+       var b=a.push(75);
+       console.log(b);
+       console.log(a);
+       //array length
+       console.log(fruits1.length);
+       delete fruits1[0];
+       console.log(fruits1);
+
+       //slice methods
+       let str = "babu,edison,Kiwi";
+        console.log(str.slice(5,11)); 
+        
+       //object 
+       var obj={
+        name:'pradeep',
+        age:34,
+        phone:6531245654,
+        position:'developer',
+        city:'trichy',
+        state:'tamilnadu'
+       };
+       console.log(obj.name);
+       console.log(obj.age);
+       console.log(obj.city);
+    </script>
+</body>
+</html>

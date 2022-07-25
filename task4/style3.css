@@ -1,0 +1,22 @@
+.flex-container{
+    display: flex;
+    background-color: aqua;
+    color:blue;
+    padding: 50px;
+    align-items:center;
+    height: 70px;
+    justify-content: flex-end;
+    height: 300px;
+}
+.flex-item{
+    background-color: aliceblue;
+    padding: 50px;
+    border: 2px solid red;
+    height: 40px;
+    
+}
+h1{
+    font: size 50px;;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: chartreuse;
+}
