@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <p id="demo"></p>
+  <Script>
+     var a="hi iam pradeep";
+     document.getElementById("demo").innerHTML=a;
+  
+    var c=document.createElement("p");
+    c.innerText="hi iam div tag "
+    c.style.color="red";
+    c.style.fontSize="90px";
+    c.style.backgroundColor="green";
+    c.style.backgroundImage="url('./about bg.jpg')";
+    c.style.backgroundRepeat="no-repeat";
+    document.body.appendChild(c);
+
+    var r=document.createElement("span");
+    r.innerText="hii hello iam pradeep";
+    r.style.color="green";
+    r.style.animationName="demo";
+    r.style.KeyframeEffect=" from backgroundColor=green","backgroundColor=yellow";
+    r.style.animationDuration="2s";
+    r.style.animationIterationCount="infinite";
+    r.style.fontSize="40px";
+    r.style.backgroundColor="yellow";
+    document.body.appendChild(r);
+
+  </Script>
+</body>
+</html>
