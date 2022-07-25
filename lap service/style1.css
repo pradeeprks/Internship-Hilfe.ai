@@ -1,0 +1,200 @@
+.head{
+    background-image: url('./logo.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.img1{
+    width: 1350px;
+    height: 500px;
+    filter:blur(2px);
+
+}
+.about1{
+    text-align: center;
+}
+.head4{
+    background-image: url('./service.gif');
+}
+.img2{
+    background-image: url('./service.gif');
+   
+}
+.about1{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.product1{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+.service1{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.nav{
+    display: flex;
+    font-size: 20px;
+}
+.soft1{
+   background-image: url('./gif.gif');
+   font-family:'Josefin Sans', sans-serif;
+    width: 1350px;
+    height: 625px;
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+    color: aliceblue;
+}
+h2{
+    text-align-last: center;
+}
+
+
+.service3{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.service2{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.offer1{
+   padding: 40px;;
+}
+.company{
+    color:fuchsia;
+    position: fixed;
+}
+.company:hover{
+    transition: width 2s;
+    text-decoration: underline 4px solid red;
+}
+a{
+    color: aqua;
+}
+a.hover{
+    transition: width 2s;
+    text-decoration: underline pink;
+    
+}
+.company1{
+    color:orange;
+    position: fixed;
+}
+.company1:hover{
+    transition: width 2s;
+    text-decoration: underline 4px solid red;
+}
+.company2{
+    color:greenyellow;
+    position: fixed;
+}
+.company2:hover{
+    transition: width 2s;
+    text-decoration: underline 4px solid red;
+}
+.company3{
+    color:blueviolet;
+    position: fixed;
+}
+.company3:hover{
+    transition: width 2s;
+    text-decoration: underline 4px solid red;
+}
+.company4{
+    color:aqua;
+    position: fixed;
+}
+.company4:hover{
+    transition: width 2s;
+    text-decoration: underline 4px solid red;
+}
+.company5{
+    color:goldenrod;
+    position: fixed;
+}
+.company5:hover{
+    transition: width 2s;
+    text-decoration: underline 4px solid red;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  footer{
+    background-color:grey;width: auto; height: 90px;
+    text-align: center;
+    font-size: medium;
+    font-family: fantasy;
+  }
+  div{
+    text-align: center;
+  }
+.column{
+    text-align:center;
+}
+.info-container{
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+.information{
+    align-content:flex-start ;
+    display: flex;
+    width: 300px;
+    height: 200px;
+    justify-content: start;
+}
